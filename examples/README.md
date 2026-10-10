@@ -19,7 +19,7 @@ Run the following commands from the repository root:
 - `zig build [module]` to compile all examples for a module (e.g. `zig build core`)
 - `zig build [example]` to compile _and run_ a particular example (e.g. `zig build core_basic_window`)
 
-## EXAMPLES COLLECTION [TOTAL: 213]
+## EXAMPLES COLLECTION [TOTAL: 215]
 
 ### category: core [49]
 
@@ -125,7 +125,7 @@ Examples using raylib shapes drawing functionality, provided by raylib [shapes](
 | [shapes_easings_testbed](shapes/shapes_easings_testbed.c) | <img src="shapes/shapes_easings_testbed.png" alt="shapes_easings_testbed" width="80"> | ⭐⭐⭐☆ | 2.5 | 2.5 | [Juan Miguel López](https://github.com/flashback-fx) |
 | [shapes_drag_puzzle](shapes/shapes_drag_puzzle.c) | <img src="shapes/shapes_drag_puzzle.png" alt="shapes_drag_puzzle" width="80"> | ⭐☆☆☆ | 6.0 | 6.0 | [Gabriel Piangers](https://github.com/gabriel-piangers) |
 
-### category: textures [32]
+### category: textures [33]
 
 Examples using raylib textures functionality, including image/textures loading/generation and drawing, provided by raylib [textures](../src/rtextures.c) module.
 
@@ -163,8 +163,9 @@ Examples using raylib textures functionality, including image/textures loading/g
 | [textures_sprite_stacking](textures/textures_sprite_stacking.c) | <img src="textures/textures_sprite_stacking.png" alt="textures_sprite_stacking" width="80"> | ⭐⭐☆☆ | 6.0 | 6.0 | [Robin](https://github.com/RobinsAviary) |
 | [textures_cellular_automata](textures/textures_cellular_automata.c) | <img src="textures/textures_cellular_automata.png" alt="textures_cellular_automata" width="80"> | ⭐⭐☆☆ | 5.6 | 5.6 | [Jordi Santonja](https://github.com/JordSant) |
 | [textures_framebuffer_rendering](textures/textures_framebuffer_rendering.c) | <img src="textures/textures_framebuffer_rendering.png" alt="textures_framebuffer_rendering" width="80"> | ⭐⭐☆☆ | 5.6 | 5.6 | [Jack Boakes](https://github.com/jackboakes) |
+| [textures_portal_window](textures/textures_portal_window.c) | <img src="textures/textures_portal_window.png" alt="textures_portal_window" width="80"> | ⭐⭐⭐⭐️ | 6.0 | 6.0 | [PanicTitan](https://github.com/PanicTitan) |
 
-### category: text [16]
+### category: text [17]
 
 Examples using raylib text functionality, including sprite fonts loading/generation and text drawing, provided by raylib [text](../src/rtext.c) module.
 
@@ -186,6 +187,7 @@ Examples using raylib text functionality, including sprite fonts loading/generat
 | [text_inline_styling](text/text_inline_styling.c) | <img src="text/text_inline_styling.png" alt="text_inline_styling" width="80"> | ⭐⭐⭐☆ | 6.0 | 6.0 | [Wagner Barongello](https://github.com/SultansOfCode) |
 | [text_words_alignment](text/text_words_alignment.c) | <img src="text/text_words_alignment.png" alt="text_words_alignment" width="80"> | ⭐☆☆☆ | 6.0 | 6.0 | [JP Mortiboys](https://github.com/themushroompirates) |
 | [text_strings_management](text/text_strings_management.c) | <img src="text/text_strings_management.png" alt="text_strings_management" width="80"> | ⭐⭐⭐☆ | 6.0 | 6.0 | [David Buzatto](https://github.com/davidbuzatto) |
+| [text_animations](text/text_animations.c) | <img src="text/text_animations.png" alt="text_animations" width="80"> | ⭐☆☆☆ | 6.0 | 6.0 | [Gabriel Piangers](https://github.com/gabriel-piangers) |
 
 ### category: models [30]
 

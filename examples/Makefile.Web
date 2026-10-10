@@ -615,6 +615,7 @@ TEXTURES = \
     textures/textures_npatch_drawing \
     textures/textures_particles_blending \
     textures/textures_polygon_drawing \
+    textures/textures_portal_window \
     textures/textures_raw_data \
     textures/textures_screen_buffer \
     textures/textures_sprite_animation \
@@ -628,6 +629,7 @@ TEXTURES = \
 
 TEXT = \
     text/text_3d_drawing \
+    text/text_animations \
     text/text_codepoints_loading \
     text/text_font_filters \
     text/text_font_loading \
@@ -1102,6 +1104,9 @@ textures/textures_polygon_drawing: textures/textures_polygon_drawing.c
 	$(CC) -o $@$(EXT) $< $(CFLAGS) $(INCLUDE_PATHS) $(LDFLAGS) $(LDLIBS) -D$(PLATFORM) \
     --preload-file textures/resources/cat.png@resources/cat.png
 
+textures/textures_portal_window: textures/textures_portal_window.c
+	$(CC) -o $@$(EXT) $< $(CFLAGS) $(INCLUDE_PATHS) $(LDFLAGS) $(LDLIBS) -D$(PLATFORM)
+
 textures/textures_raw_data: textures/textures_raw_data.c
 	$(CC) -o $@$(EXT) $< $(CFLAGS) $(INCLUDE_PATHS) $(LDFLAGS) $(LDLIBS) -D$(PLATFORM) \
     --preload-file textures/resources/fudesumi.raw@resources/fudesumi.raw
@@ -1147,6 +1152,9 @@ textures/textures_to_image: textures/textures_to_image.c
 text/text_3d_drawing: text/text_3d_drawing.c
 	$(CC) -o $@$(EXT) $< $(CFLAGS) $(INCLUDE_PATHS) $(LDFLAGS) $(LDLIBS) -D$(PLATFORM) \
     --preload-file text/resources/shaders/glsl100/alpha_discard.fs@resources/shaders/glsl100/alpha_discard.fs
+
+text/text_animations: text/text_animations.c
+	$(CC) -o $@$(EXT) $< $(CFLAGS) $(INCLUDE_PATHS) $(LDFLAGS) $(LDLIBS) -D$(PLATFORM)
 
 text/text_codepoints_loading: text/text_codepoints_loading.c
 	$(CC) -o $@$(EXT) $< $(CFLAGS) $(INCLUDE_PATHS) $(LDFLAGS) $(LDLIBS) -D$(PLATFORM) \

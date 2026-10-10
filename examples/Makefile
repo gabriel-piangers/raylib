@@ -654,6 +654,7 @@ TEXTURES = \
     textures/textures_npatch_drawing \
     textures/textures_particles_blending \
     textures/textures_polygon_drawing \
+    textures/textures_portal_window \
     textures/textures_raw_data \
     textures/textures_screen_buffer \
     textures/textures_sprite_animation \
@@ -667,6 +668,7 @@ TEXTURES = \
 
 TEXT = \
     text/text_3d_drawing \
+    text/text_animations \
     text/text_codepoints_loading \
     text/text_font_filters \
     text/text_font_loading \
